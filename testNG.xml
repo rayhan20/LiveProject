@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Amazon">
+
+	<test name="Live">
+
+		<classes>
+
+			<class name="test.AmazonTest">
+
+				<methods>
+
+					<include name="amzTest"></include>
+
+				</methods>
+
+			</class>
+			
+		</classes>
+	</test>
+</suite>

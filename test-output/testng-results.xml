@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[URLs matched]]>
+    </line>
+    <line>
+      <![CDATA[Titles matched]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser Closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Amazon" duration-ms="5242" started-at="2020-07-22T20:13:30 PDT" finished-at="2020-07-22T20:13:35 PDT">
+    <groups>
+    </groups>
+    <test name="Live" duration-ms="5242" started-at="2020-07-22T20:13:30 PDT" finished-at="2020-07-22T20:13:35 PDT">
+      <class name="test.AmazonTest">
+        <test-method status="PASS" signature="amzTest()[pri:0, instance:test.AmazonTest@4f970963]" name="amzTest" duration-ms="5196" started-at="2020-07-22T20:13:30 PDT" finished-at="2020-07-22T20:13:35 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[URLs matched]]>
+            </line>
+            <line>
+              <![CDATA[Titles matched]]>
+            </line>
+            <line>
+              <![CDATA[Chrome Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amzTest -->
+      </class> <!-- test.AmazonTest -->
+    </test> <!-- Live -->
+  </suite> <!-- Amazon -->
+</testng-results>
