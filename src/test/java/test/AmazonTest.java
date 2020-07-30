@@ -25,5 +25,23 @@ public class AmazonTest {
 	
 	}
 	
+	@Test
+	public void amzTest2() {
+		
+		HomePage home = new HomePage ();
+		
+		home.openBrowser();
+		home.verifyURL();
+		home.verifyTitle();
+		home.search();
+		
+		ProductPage prod = new ProductPage();
+		
+		prod.clickItem();
+		home.closeBrowser();
+		
+	
+	}
+	
 
 }
